@@ -14,6 +14,8 @@ Processes grouped into Apps and Background, live performance graphs, users, deta
 
 <img src="docs/screenshots/processes.png" width="760" alt="Processes tab">
 
+<a href="https://buymeacoffee.com/1ewis"><img src="https://img.buymeacoffee.com/button-api/?text=Buy%20me%20a%20coffee&emoji=%E2%98%95&slug=1ewis&button_colour=FFDD00&font_colour=000000&font_family=Cookie&outline_colour=000000&coffee_colour=ffffff" height="46" alt="Buy me a coffee"></a>
+
 </div>
 
 ## Why
@@ -135,3 +137,9 @@ python -m taskmgr      # run from source
 ## License
 
 [MIT](LICENSE)
+
+## Support
+
+If this saved you some time, a coffee is a lovely way to say thanks.
+
+<a href="https://buymeacoffee.com/1ewis"><img src="https://img.buymeacoffee.com/button-api/?text=Buy%20me%20a%20coffee&emoji=%E2%98%95&slug=1ewis&button_colour=FFDD00&font_colour=000000&font_family=Cookie&outline_colour=000000&coffee_colour=ffffff" height="46" alt="Buy me a coffee"></a>
