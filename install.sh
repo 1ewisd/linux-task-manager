@@ -42,10 +42,12 @@ if [ -z "$PY" ]; then
     if command -v "$c" >/dev/null 2>&1 && py_ok "$c"; then PY="$(command -v "$c")"; break; fi
   done
 fi
-[ -n "$PY" ] && py_ok "$PY" || die "need Python 3.$MIN_MINOR or newer.
+if [ -z "$PY" ] || ! py_ok "$PY"; then
+  die "need Python 3.$MIN_MINOR or newer.
   Debian/Ubuntu: sudo apt install python3 python3-venv
   Fedora:        sudo dnf install python3
   Arch:          sudo pacman -S python"
+fi
 info "Python: $PY ($("$PY" -c 'import sys; print(sys.version.split()[0])'))"
 
 # 2. venv module (Debian/Ubuntu ship it separately)
