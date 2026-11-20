@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Application
+Name=Task Manager
+GenericName=System Monitor
+Comment=Windows-style Task Manager: processes, performance, users and services
+Exec=@EXEC@
+Icon=taskmgr
+Terminal=false
+Categories=System;Monitor;
+Keywords=task;manager;process;kill;cpu;memory;performance;monitor;
+StartupWMClass=taskmgr

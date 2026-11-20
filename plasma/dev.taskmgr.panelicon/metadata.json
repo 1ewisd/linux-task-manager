@@ -1,0 +1,14 @@
+{
+    "KPackageStructure": "Plasma/Applet",
+    "KPlugin": {
+        "Id": "dev.taskmgr.panelicon",
+        "Name": "Task Manager",
+        "Description": "Panel icon that opens Task Manager",
+        "Icon": "taskmgr",
+        "Category": "Application Launchers",
+        "Version": "1.0",
+        "License": "MIT",
+        "Authors": [{ "Name": "1ewisd" }]
+    },
+    "X-Plasma-API-Minimum-Version": "6.0"
+}
